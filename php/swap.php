@@ -14,9 +14,9 @@ class Swap {
 	}
 
 	public function swapValue() {
-    	$this->a = $this->a+$this->b;
-    	$this->b = $this->a-$this->b;
-    	$this->a = $this->a-$this->b;
+    		$this->a = $this->a+$this->b;
+    		$this->b = $this->a-$this->b;
+    		$this->a = $this->a-$this->b;
 	}
 
 	public function getAValue() {
