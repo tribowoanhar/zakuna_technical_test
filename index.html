@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="description" content="Swap Algorithm. The algorithm for swaping two variables value.">
+    <meta name="author" content="Anhar Tribowo">
+    <link rel="icon" href="img/favicon.png">
+
+    <title>Swap Algorithm</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/jquery.min.js"> </script>
+  </head>
+
+  <body>
+    <div id="wrap">
+      <div class="container">
+
+        <form class="form-signin" name="swapForm" id="swapForm" action="php/instanceSwap.php" method="POST">
+          <center><h2 class="form-signin-heading">Swap Algorithm</h2></center>
+
+          <label for="a" class="sr-only">Variabel A</label>
+          <input type="number" id="a" min="1" max="100000000" class="form-control" name="a" placeholder="Variabel A" required autofocus />
+
+          <label for="b" class="sr-only">Variabel B</label>
+          <input type="number" id="b" min="1" max="100000000" class="form-control" name="b" placeholder="Variabel B" required autofocus />
+
+          <input class="btn btn-lg btn-primary btn-block" type="submit" name="submit" value="Submit" />
+        </form>
+
+        <br>
+
+        <center>
+          <h2 class="form-signin-heading" id="labelResult"></h2>
+          <div id="contentResult"></div>
+        </center>
+
+      </div>
+    </div>
+  </body>
+
+  <div id="footer">
+    <div class="container">
+      <center class="muted credit">Anhar Tribowo &copy 2015</center>
+    </div>
+  </div>
+
+</html>
+
+<script src="js/callSwap.js"></script>
